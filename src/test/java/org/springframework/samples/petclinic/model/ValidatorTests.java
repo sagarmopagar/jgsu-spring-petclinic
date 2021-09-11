@@ -46,8 +46,8 @@ class ValidatorTests {
 		
 		LocaleContextHolder.setLocale(Locale.ENGLISH);
 		Person person = new Person();
-//		person.setFirstName("");
-		person.setFirstName("wrong");
+		person.setFirstName("");
+//		person.setFirstName("wrong");
 		person.setLastName("smith");
 
 		Validator validator = createValidator();
